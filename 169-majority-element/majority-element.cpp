@@ -10,9 +10,9 @@ public:
             }
             else{
                 freq=1;
-                ans=nums[i];
             }
             if(freq>n/2){
+                ans=nums[i-1];
                 return ans;
             }
         }
