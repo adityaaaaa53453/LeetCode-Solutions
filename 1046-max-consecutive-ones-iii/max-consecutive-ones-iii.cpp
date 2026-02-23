@@ -7,7 +7,7 @@ public:
             if(nums[r]==0){
                 count++;
             }
-            while(count>k){
+            if(count>k){
                 if(nums[l]==0)count--;
                 l++;
             }
